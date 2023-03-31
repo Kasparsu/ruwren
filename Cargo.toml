@@ -13,7 +13,7 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ruwren-sys = "0.4"
+ruwren-sys = { git = "https://github.com/Kasparsu/wren-sys.git" }
 
 [dev-dependencies]
 criterion = "0.3"
